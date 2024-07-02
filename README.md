@@ -2,12 +2,12 @@
 
 ```mermaid
 graph TD;
-    PretrainedLlama3[Pretrained Llama3] --> LLaMAFactory[LLaMA-Factory (FT)];
-    LLaMAFactory[LLaMA-Factory (FT)] --> llamacpp-Q[llama.cpp (Q)];
-    LLaMAFactory[LLaMA-Factory (FT)] --> AutoAWQ[AutoAWQ (Q)];
-    LLaMAFactory[LLaMA-Factory (FT)] --> AutoGPTQ[AutoGPTQ (Q)];
-    llamacpp-Q[llama.cpp (Q)] --> llamacpp-D[llama.cpp (D)];
-    llamacpp-Q[llama.cpp (Q)] --> ollama[ollama (D)];
+    PretrainedLlama3[Pretrained Llama3]-->LLaMAFactory[LLaMA-Factory (FT)];
+    LLaMAFactory[LLaMA-Factory (FT)]-->llamacpp-Q[llama.cpp (Q)];
+    LLaMAFactory[LLaMA-Factory (FT)]-->AutoAWQ[AutoAWQ (Q)];
+    LLaMAFactory[LLaMA-Factory (FT)]-->AutoGPTQ[AutoGPTQ (Q)];
+    llamacpp-Q[llama.cpp (Q)]-->llamacpp-D[llama.cpp (D)];
+    llamacpp-Q[llama.cpp (Q)]-->ollama[ollama (D)];
    ```
 
 > [!NOTE]
